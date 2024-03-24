@@ -32,7 +32,7 @@ const ToDoWrapper = () => {
     }
 
     return (
-        <div className='ToDoWrapper'>
+        <div className='TodoWrapper'>
             <h1>ToDo-List</h1>
             <ToDoForm addTodo={addTodo}/>
             {todos.map((todo,index)=>(

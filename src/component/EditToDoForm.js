@@ -14,7 +14,7 @@ const EditToDoForm = ({editTodo,task}) => {
     <form className='TodoForm' onSubmit={handleSubmit}>
         <input type='text'className='todo-input' placeholder='Update Task' value={value}
         onChange={(e)=>setValue(e.target.value)} />
-        <button className='todo-button' type='submit'>Update Task</button>
+        <button className='todo-btn' type='submit'>Update Task</button>
     </form>
   )
 }
